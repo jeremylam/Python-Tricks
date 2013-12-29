@@ -45,7 +45,17 @@
 	git add README.md
 	git commit -m "First commit. Adding a README."
 	git push -u origin master
-
+##GitHub
+###Create a new repository on the command line
+	touch README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin git@github.com:jeremylam/Python-Tricks.git
+	git push -u origin master
+###Push an existing repository from the command line
+	git remote add origin git@github.com:jeremylam/Python-Tricks.git
+	git push -u origin master
 ##常用命令
 ###Git配置
     git config --global color.ui true
